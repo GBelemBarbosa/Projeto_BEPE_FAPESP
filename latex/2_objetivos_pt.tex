@@ -1,0 +1,12 @@
+%LTeX: language=pt-BR
+\section{Objetivos}
+
+O objetivo principal deste estágio de pesquisa no exterior é estender e acelerar a resolução de problemas de otimização com regularizações descontínuas (tais como a penalidade $L_0$ e restrições de cardinalidade em grupos) por meio da exploração de novas alternativas de segunda ordem e operadores proximais estruturados. A intenção é utilizar esses métodos como poderosos pré-processadores globais capazes de navegar eficientemente por paisagens complexas e se aproximar da variedade ativa correta. Essa identificação aprimorada de boas regiões permitirá que refinadores locais --- como a descida de coordenadas e buscas combinatórias --- encontrem soluções de maior qualidade com muito mais facilidade.
+
+Os objetivos específicos incluem:
+\begin{itemize}
+    \item \textbf{Desenvolvimento Algorítmico Híbrido:} Projetar um arcabouço algorítmico híbrido onde novas alternativas estruturadas de segunda ordem e operadores proximais (ex: métricas variáveis tridiagonais em blocos) atuem como identificadores globais de boas regiões. Isso será integrado à descida de coordenadas e às buscas locais combinatórias estudadas no doutorado, as quais atuarão como refinadores locais para isolar o suporte ótimo final;
+    \item \textbf{Análise Teórica de Convergência:} Analisar a convergência local e global do método híbrido resultante, explorando as recentes análises de complexidade para otimização não-suave \cite{leconte2023complexity};
+    \item \textbf{Estudo de Casos Práticos:} Validar os algoritmos propostos em aplicações reais de aprendizado de máquina esparso e processamento de sinais em grande escala;
+    \item \textbf{Integração de Software:} Implementar os algoritmos resultantes em Julia, integrando as metodologias ao ecossistema \texttt{JuliaSmoothOptimizers} (JSO) se aplicável, garantindo alta escalabilidade e disponibilizando as ferramentas para a comunidade científica.
+\end{itemize}

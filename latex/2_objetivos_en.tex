@@ -1,0 +1,11 @@
+\section{Objectives}
+
+The main objective of this research internship abroad is to extend and accelerate the resolution of optimization problems with discontinuous regularizations (such as the $L_0$ penalty and group cardinality constraints) by exploring new second-order alternatives and structured proximal operators. The goal is to utilize these methods as powerful global preprocessors that can effectively navigate complex landscapes and approach the correct active manifold. This enhanced identification of good regions will subsequently allow local refiners---such as coordinate descent and combinatorial searches---to find higher-quality solutions with greater ease.
+
+The specific objectives include:
+\begin{itemize}
+    \item \textbf{Hybrid Algorithmic Development:} Design a hybrid algorithmic framework where novel structured second-order alternatives and proximal operators (e.g., block-tridiagonal variable metrics) act as global identifiers of good regions. This will be integrated with the coordinate descent and combinatorial local searches studied during the PhD, which will act as the local refiners to isolate the final optimal support;
+    \item \textbf{Theoretical Convergence Analysis:} Analyze the local and global convergence of the resulting hybrid method, exploring recent complexity analyses for nonsmooth optimization \cite{leconte2023complexity};
+    \item \textbf{Practical Case Studies:} Validate the proposed algorithms on real-world applications of sparse machine learning and large-scale signal processing;
+    \item \textbf{Software Integration:} Implement resulting algorithms in Julia, integrating the methodologies into the \texttt{JuliaSmoothOptimizers} (JSO) ecosystem if appropriate, ensuring high scalability and making the tools available to the scientific community.
+\end{itemize}

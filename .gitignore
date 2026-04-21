@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not directories
+!*/
+
+# And not these files
+!*.tex
+!*.bib
+!*.cls
+!.gitignore

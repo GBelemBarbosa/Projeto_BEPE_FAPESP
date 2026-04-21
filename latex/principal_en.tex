@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{cite}
+
+\title{\textbf{Scalable Second-Order and Hybrid Methods for Optimization with Discontinuous Regularizations}\\
+\large FAPESP BEPE Research Proposal}
+
+\author{
+    \textbf{Candidate:} Gabriel Belém Barbosa \\
+    \textbf{Home Advisor:} Prof. Dr. Paulo José da Silva e Silva (UNICAMP) \\
+    \textbf{Host Supervisor:} Prof. Dr. Dominique Orban (Polytechnique Montréal)
+}
+\date{Proposed period: September 2026 -- August 2027}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This research project proposes a research internship abroad (BEPE) at Polytechnique Montréal under the supervision of Prof. Dominique Orban. The main objective is to develop scalable second-order and hybrid methods for large-scale optimization problems involving discontinuous regularizations, particularly cardinality constraints ($L_0$ norm) and group sparsity. The proposal bridges the highly efficient first-order heuristics (Nonmonotone Spectral Proximal Gradient - NSPG, coordinate descent, and local combinatorial algorithms) developed during the PhD in Brazil with the advanced nonsmooth optimization machinery, such as trust-region and cubic regularization methods, researched by the host group. Beyond theoretical and algorithmic development, the project envisions robust implementations within the open-source \texttt{JuliaSmoothOptimizers} (JSO) ecosystem, providing direct contributions to the optimization software community.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\input{1_introducao_en}
+\input{2_objetivos_en}
+\input{3_metodologia_en}
+\input{4_plano_trabalho_en}
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\end{document}

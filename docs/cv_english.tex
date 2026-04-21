@@ -1,0 +1,141 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+% ---- Style settings ----
+\definecolor{sectioncolor}{HTML}{1a1a2e}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    urlcolor=blue!60!black,
+}
+
+\titleformat{\section}
+  {\large\bfseries\color{sectioncolor}}
+  {}{0em}
+  {}
+  [\vspace{-0.5em}\rule{\textwidth}{0.4pt}]
+
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+
+\pagestyle{empty}
+
+% ---- Document ----
+\begin{document}
+
+% ---- Header ----
+\begin{center}
+    {\LARGE\bfseries Gabriel Belém Barbosa}
+
+    \vspace{0.4em}
+    \href{https://orcid.org/0009-0000-4204-8326}{ORCID: 0009-0000-4204-8326} \quad$\cdot$\quad
+    \href{https://github.com/GBelemBarbosa}{GitHub: GBelemBarbosa}
+\end{center}
+
+\vspace{0.3em}
+
+% ---- Education ----
+\section{Education}
+
+\begin{tabularx}{\textwidth}{@{}lXr@{}}
+    \textbf{Ph.D.\ in Applied Mathematics} & \small Department of Applied Mathematics, IMECC, University of Campinas (UNICAMP) & \textit{2025\,--\,present} \\
+    & \small Advisor: Prof.\ Dr.\ Paulo José da Silva e Silva &  \\[0.6em]
+
+    \textbf{M.Sc.\ in Applied Mathematics} & \small Department of Applied Mathematics, IMECC, UNICAMP & \textit{2023\,--\,2025} \\
+    & \small Advisor: Prof.\ Dr.\ Paulo José da Silva e Silva & \\
+    & \small Thesis: \textit{Optimization of problems involving group sparsity} & \\[0.6em]
+
+    \textbf{B.Sc.\ in Applied and Computational Mathematics} & \small Department of Applied Mathematics, IMECC, UNICAMP & \textit{2019\,--\,2023} \\
+\end{tabularx}
+
+% ---- Research Interests ----
+\section{Research Interests}
+
+Composite optimization $\cdot$
+proximal methods $\cdot$
+group sparsity $\cdot$
+$\ell_0$ regularization $\cdot$
+nonmonotone proximal gradient methods $\cdot$
+spectral step strategies $\cdot$
+accelerated proximal methods $\cdot$
+second-order methods for nonsmooth problems $\cdot$
+best subset selection
+
+% ---- Publications and Theses ----
+\section{Theses}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+    \item G.\ B.\ Barbosa. \textit{Otimização de problemas envolvendo esparsidade de grupos} (Optimization of problems involving group sparsity). Master's thesis, University of Campinas, 2025. Advisor: Paulo José da Silva e Silva. Available at \href{https://www.ime.unicamp.br/pos-graduacao/matematica-aplicada/minimizacao-problemas-compositos-com-regularizacoes-descontinuas}{UNICAMP repository}.
+\end{enumerate}
+
+% ---- Undergraduate Research ----
+\section{Undergraduate Research}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+    \item G.\ B.\ Barbosa. \textit{Numerical methods in piecewise smooth differential equations in dimension~2}. Award-winning undergraduate research project (PIBIC/CNPq, 2021--2022). Advisor: Ricardo Miranda Martins. Available at \url{https://www.ime.unicamp.br/~mac/galeria.html}.
+\end{enumerate}
+
+% ---- Talks and Events ----
+\section{Talks and Scientific Events}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+    \item \textbf{Talk:} ``Optimization of problems involving group sparsity.'' \textit{1st Carioca Workshop in Optimization and Applications (CariOPT 2025)}, School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp), Rio de Janeiro, Brazil, May 5--7, 2025.
+
+    \item \textbf{Participant:} \textit{Integrative Think Tank Brazil (ITT 2023)}, SIRIUS particle accelerator, Brazilian Synchrotron Light Laboratory (LNLS), Campinas, Brazil, December 2023. In collaboration with the University of Bath (UK), CEMADEN, and CeMEAI. Focused on composite regression models for infrared spectroscopy data from the IMBUIA beamline.
+\end{enumerate}
+
+% ---- Awards ----
+\section{Honors and Awards}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+    \item \textbf{SBMAC Academic Merit Award} --- Brazilian Society of Computational and Applied Mathematics. Awarded for outstanding academic performance in undergraduate Mathematics, Applied Mathematics, and/or Computational Mathematics programs. See \url{https://www.sbmac.org.br/premio-ao-merito-academico/}.
+
+    \item \textbf{Award-winning undergraduate project} --- PIBIC/CNPq evaluation committee, UNICAMP, 2022.
+\end{enumerate}
+
+% ---- Funding ----
+\section{Grants and Fellowships}
+
+\begin{tabularx}{\textwidth}{@{}lXr@{}}
+    \textbf{FAPESP} & Ph.D.\ Fellowship (Direct Funding) & Mar 2025\,--\,present \\
+    \textbf{FAPESP} & M.Sc.\ Fellowship (Direct Funding) & Aug 2023\,--\,Feb 2025 \\
+    \textbf{CAPES} & M.Sc.\ Fellowship & Mar 2023\,--\,Jul 2023 \\
+    \textbf{CNPq} & PIBIC Undergraduate Research Scholarship & Sep 2021\,--\,Sep 2022 \\
+\end{tabularx}
+
+% ---- Teaching ----
+\section{Teaching Experience}
+
+\begin{tabularx}{\textwidth}{@{}lXr@{}}
+    \textbf{Teaching Assistant (PED~C)} & MS211 -- Numerical Calculus, IMECC, UNICAMP & 1S/2026 \\
+    \textbf{Teaching Assistant (PED~C)} & MS211 -- Numerical Calculus, IMECC, UNICAMP & 2S/2025 \\
+    \textbf{Teaching Assistant (PED~C)} & MS211 -- Numerical Calculus, IMECC, UNICAMP & 2S/2024 \\
+    \textbf{Teaching Assistant (PED~C)} & MS211 -- Numerical Calculus, IMECC, UNICAMP & 2S/2023 \\
+\end{tabularx}
+
+% ---- Software ----
+\section{Software}
+
+\begin{enumerate}[leftmargin=1.5em, label={[\arabic*]}]
+    \item \href{https://github.com/GBelemBarbosa/Qualificacao}{\texttt{Qualificacao}} -- Julia package with implementations of nonmonotone spectral proximal gradient methods (NPG/ANPG), coordinate descent with partial swap inescapable refinement (PGCCD/CPSI), and experiments on $\ell_0$-regularized problems including spectroscopy applications.
+\end{enumerate}
+
+% ---- Languages ----
+\section{Languages}
+
+Portuguese (native) \,$\cdot$\, English (fluent)
+
+\end{document}

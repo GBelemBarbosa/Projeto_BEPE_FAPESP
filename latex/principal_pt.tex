@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{cite}
+
+\title{\textbf{Métodos Escaláveis de Segunda Ordem e Híbridos para Otimização com Regularizações Descontínuas}\\
+\large Projeto de Pesquisa - FAPESP BEPE}
+
+\author{
+    \textbf{Candidato:} Gabriel Belém Barbosa \\
+    \textbf{Orientador Brasil:} Prof. Dr. Paulo José da Silva e Silva (UNICAMP) \\
+    \textbf{Supervisor Exterior:} Prof. Dr. Dominique Orban (Polytechnique Montréal)
+}
+\date{Período Proposto: Setembro 2026 -- Agosto 2027}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este projeto de pesquisa visa o estágio no exterior (BEPE) na Polytechnique Montréal sob a supervisão do Prof. Dominique Orban. O objetivo principal é desenvolver métodos escaláveis de segunda ordem e abordagens híbridas para problemas de otimização em larga escala que envolvem regularizações descontínuas, em especial a restrição de cardinalidade (norma $L_0$) e esparsidade de grupos. A proposta integra as heurísticas de primeira ordem (Nonmonotone Spectral Proximal Gradient - NSPG, descida de coordenadas e algoritmos combinatoriais locais) desenvolvidas durante o doutorado no Brasil com o maquinário avançado de otimização não-suave e métodos de confiança/regularização cúbica do grupo anfitrião. Além do desenvolvimento teórico e algorítmico, o projeto prevê a implementação robusta destas ferramentas no ecossistema de código aberto \texttt{JuliaSmoothOptimizers} (JSO), contribuindo diretamente para a comunidade de otimização.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\input{1_introducao_pt}
+\input{2_objetivos_pt}
+\input{3_metodologia_pt}
+\input{4_plano_trabalho_pt}
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\end{document}
