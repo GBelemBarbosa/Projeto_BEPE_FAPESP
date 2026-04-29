@@ -10,3 +10,11 @@ Os objetivos específicos incluem:
     \item \textbf{Estudo de Casos Práticos:} Validar os algoritmos propostos em aplicações reais de aprendizado de máquina esparso e processamento de sinais em grande escala;
     \item \textbf{Integração de Software:} Implementar os algoritmos resultantes em Julia, integrando as metodologias ao ecossistema \texttt{JuliaSmoothOptimizers} (JSO) se aplicável, garantindo alta escalabilidade e disponibilizando as ferramentas para a comunidade científica.
 \end{itemize}
+
+\subsection{Caminhos Alternativos de Pesquisa}
+Embora o foco principal permaneça no arcabouço algorítmico híbrido, este projeto também identifica dois caminhos de pesquisa alternativos e promissores:
+\begin{itemize}
+    \item \textbf{Exploração de Separabilidade Inerente:} Aplicar o método de gradiente proximal com métrica variável \cite{Leconte_2024}, em conjunto com a descida de coordenadas e as buscas combinatórias, em problemas onde a Hessiana verdadeira é naturalmente parcialmente separável ou separável em blocos. Esta abordagem evita a necessidade de aproximações quasi-Newton que imponham tais critérios, aproveitando a estrutura nativa da função objetivo;
+    \item \textbf{Técnicas Combinatórias para Otimização com Restrições:} Expandir as técnicas de busca combinatória para problemas com restrições (focando inicialmente em restrições de caixa). Neste contexto, a decisão de sair de uma face da região viável será tratada de forma análoga à decisão de adicionar ou remover parâmetros do suporte ativo em problemas $L_0$ sem restrições.
+\end{itemize}
+

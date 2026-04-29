@@ -9,3 +9,11 @@ The specific objectives include:
     \item \textbf{Practical Case Studies:} Validate the proposed algorithms on real-world applications of sparse machine learning and large-scale signal processing;
     \item \textbf{Software Integration:} Implement resulting algorithms in Julia, integrating the methodologies into the \texttt{JuliaSmoothOptimizers} (JSO) ecosystem if appropriate, ensuring high scalability and making the tools available to the scientific community.
 \end{itemize}
+
+\subsection{Alternative Avenues of Research}
+While the primary focus remains on the hybrid algorithmic framework, this project also identifies two promising alternative research directions:
+\begin{itemize}
+    \item \textbf{Exploiting Inherent Separability:} Apply the variable metric proximal gradient method \cite{Leconte_2024}, together with the coordinate descent and combinatorial searches, to problems where the true Hessian is naturally partially separable or block separable. This bypasses the need for quasi-Newton approximations that enforce these criteria, leveraging the native structure of the objective function;
+    \item \textbf{Combinatorial Techniques for Constrained Optimization:} Expand the combinatorial search techniques to constrained problems (initially focusing on box constraints). In this setting, the decision to leave a face of the feasible region will be handled in a manner analogous to the decision to add or remove parameters from the active support in unconstrained $L_0$ problems.
+\end{itemize}
+
