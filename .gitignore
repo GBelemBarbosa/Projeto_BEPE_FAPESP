@@ -9,3 +9,6 @@
 !*.bib
 !*.cls
 !.gitignore
+
+# Ignore docs directory
+docs/
